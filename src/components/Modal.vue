@@ -2,7 +2,7 @@
     <div class="outerWrapper">
         <div class="innerWrapper">
             <div class="photo">
-                <img :src="photo">
+                <img :src="photo" >
             </div>
             <div class="description">
                 <h2 class="title">{{ title }}</h2>
@@ -102,7 +102,7 @@ export default {
             flex-direction: row;
 
             .photo {
-                min-width: 50%;
+                max-width: 30%;
                 margin-right: 20px;
             }
         }
@@ -110,11 +110,12 @@ export default {
 
         .photo {
             width: 100%;
-            height: auto;
+            height: 100%;
             background: black;
 
             img{
                 width: 100%;
+                max-height: 100%;
             }
         }
 
