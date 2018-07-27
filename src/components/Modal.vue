@@ -56,7 +56,7 @@ export default {
             top: 0;
             bottom: 0;
             margin: auto;
-            box-shaodw: 0 30px 30px - 10px rgba(0,0,0, .3);
+            box-shadow: 0 30px 30px - 10px rgba(0,0,0, .3);
         }
     }
 
